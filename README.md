@@ -5,7 +5,7 @@
 - Nome: Marcos Paulo de Souza Costa
 - Matrícula: 12.2.8417
 - Curso: Engenharia de Computação
-- Semestre/Ano correntes: PLE 2020
+- Semestre/Ano correntes: 2020/3 - PLE Emergencial COVID-19
 - Link para o seu GitHub: https://github.com/marcospsc
 
 ## [Projeto final:](./Projeto/README.md) 
