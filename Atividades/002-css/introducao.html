@@ -1,0 +1,74 @@
+<!DOCTYPE html> <!--define padrão do html que esta sendo usado-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Introdução ao HTML</title>
+        
+        <style type="text/css">
+            body{
+                margin: 0; 
+            }
+
+            h1, h2, h3, h4{
+                margin-top: 0;
+            }
+
+            h1{
+                font-size: 60pt;
+                color:crimson;
+            }
+
+            p.info{ <!--Classe-->
+                font-family: arial;
+                font-size: 18pt;
+            }
+
+            #codigo{<!--id-->
+                border-color: #c6c6c6;
+                color: darkgoldenrod;
+                border-style: solid;
+                border-radius: 15px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header><!--tag para identificar cabeçalho de uma determinada pagina-->
+            <h1>Sejam bem-vindxs!</h1> <!--tag principal-->
+        </header>
+
+        <h2>Curso de programação Web</h2>
+        <h3>Início do curso em HTML</h3>
+        <h4>Um ótimo curso para vocês!</h4>
+
+        <p class="info">Este é um curso de introdução a <strong>programação web</strong>. Na aula de hoje estudaremos HTML.</p> <!--p identifica paragrafo. strong deixa o elemento em negrito-->
+
+        <!--Comentário-->
+        <p style="color:chartreuse">Texto em parágrafo.</p><!--In line estilo-->
+        <div><!--tag div encapsula um conjunto de elementos-->
+
+            <div>
+                <a href="http://www.ufop.br" target="_blank">Site da UFOP</a><!--faz ligação entre os documentos. a de ancor e tem como argumento href de hyperlinks. blak faz abrir em outra aba, nao sobrepoe-->
+            </div>
+
+            <div id="codigo">
+                <a href="cadastro.html">Cadastro</a>
+            </div>
+
+            <div>
+                <a href="relatorio.html">Relatório</a>
+            </div>
+
+        </div>
+
+        <div>
+            <img width="20%" src="./img/logo-decsi.png" alt="Logomarca do DECSI."> <!--img imagem. alt tag de acessibilidade, caso  a imagem nao esteja disponivel mostrará o texto que segue-->
+        </div>
+
+        <footer>
+            Sistemas Web I
+        </footer>
+
+    </body>
+
+</html>
