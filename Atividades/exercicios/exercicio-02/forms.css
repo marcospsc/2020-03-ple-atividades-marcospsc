@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(186, 253, 166);
+}
+
+menu{
+    font-weight: bold;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid green;
+    border-radius: 50px;
+    
+}
+
+input[type="email"]{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid green;
+    border-radius: 50px;
+}
+
+input[type="tel"]{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid green;
+    border-radius: 50px;
+}
+
+form > div{
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.controle{
+    background-color: rgb(255, 250, 200);
+
+}
+
+.genero{
+    background-color: rgb(255, 250, 200);
+
+}
+
+.areainteresse{
+    background-color: rgb(255, 250, 200);
+
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid green;
+    border-radius: 50px;
+}
+
+input[type="reset"]{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(206, 206, 206);
+    border: 1px solid green;
+    border-radius: 50px;
+}
+
