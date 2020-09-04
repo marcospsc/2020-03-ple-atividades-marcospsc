@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de pessoas</title>
+</head>
+<body>
+
+    <menu>
+        <p>Menu</p>
+        <div>
+            <a href="introducao.html">Home</a>
+            <br>
+
+            <a href="relatorio.html">Relatórios</a>
+            <br>
+
+        </div>
+    </menu>
+    
+    <h1>Dados do cadastro da pessoa</h1>
+
+    <form method="get" action="validar.html">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome da pessoa">
+        </div>
+
+        <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Endereço da pessoa">
+        </div>
+
+        <div>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="Telefone da pessoa">
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="E-mail da pessoa">
+        </div>
+
+        <div>
+            <label>Gênero:</label>
+
+            <div>
+                <input type="radio" name="genero" id="feminino" value="F">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="masculino" value="M">
+                <label for="masculino">Masculino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="naobinario" value="NB">
+                <label for="naobinario">Não binário</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="semresposta" value="SR">
+                <label for="semresposta">Prefiro não informar</label>
+            </div>
+        </div>
+
+        <div>
+
+            <label>Áreas de interesse:</label>
+
+            <div>
+                <input type="checkbox" name="area[0]" id="web">
+                <label for="web">Sistemas Web</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="area[1]" id="db">
+                <label for="db">Banco de dados</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="area[2]" id="redes">
+                <label for="redes">Redes</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="area[4]" id="engsoft">
+                <label for="engsoft">Engenharia de Software</label>
+            </div>
+
+        </div>
+
+        <input type="submit" value="Cadastrar">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+    <footer>
+        Site do Marcos Paulo
+    </footer>
+
+</body>
+</html>
