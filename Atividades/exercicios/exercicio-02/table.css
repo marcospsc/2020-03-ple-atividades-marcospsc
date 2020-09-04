@@ -36,6 +36,14 @@ caption{
     font-weight: bold;
 }
 
+tbody tr:nth-child(odd){ /*an + b uma formula como argumento*/
+    background-color: rgb(206, 206, 206);
+}
+
+tbody tr:nth-child(even){ /*an + b uma formula como argumento*/
+    background-color:rgb(255, 250, 200);
+}
+
 thead tr:hover{
     background-color: green;
 }
@@ -46,14 +54,6 @@ tbody tr:hover{ /*pq nao funciona?*/
 
 tfoot tr:hover{
     background-color: green;
-}
-
-tbody tr:nth-child(odd){ /*an + b uma formula como argumento*/
-    background-color: rgb(206, 206, 206);
-}
-
-tbody tr:nth-child(even){ /*an + b uma formula como argumento*/
-    background-color:rgb(255, 250, 200);
 }
 
 .centralizado{
