@@ -19,7 +19,7 @@
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo 
 
-  (Pode haver alterações durante o processo de desenvolvimento)
+  (Podem haver alterações durante o processo de desenvolvimento)
   Este projeto terá as seguintes funcionalidades:
 -home page com destaques (usuários, produtos, etc);
 -perfil como dados pessoais do usuário, lista de desejos, lista de produtos, lista de amigos;
@@ -32,12 +32,12 @@
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados ...
+  Neste trabalho não serão considerados tratamentos ao realizar pagamentos e não será levado em conta produtos iguais com descrições diferentes, todos serão considerados com as mesmas características, como se cada usuário tivesse copiado e colado a descrição do mesmo.
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
+  Protótipos para as páginas home, carrinho, bazar, negocio, perfil, pesquisa e produtos foram elaborados, e podem ser encontrados em https://github.com/UFOP-CSI477/2020-03-ple-atividades-marcospsc/tree/master/Projeto/Prototipo
 
 ### 5. Referências
 
